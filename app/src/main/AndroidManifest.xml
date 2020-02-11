@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="e.margi.otpdynamicanotherone">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Doctorpatientlist"></activity>
+        <activity android:name=".PatientRegistration" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Adminlogin" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".Backtologin" />
+        <activity android:name=".Profile_Activity" />
+        <activity android:name=".Doctoractivity" />
+        <activity android:name=".Groupid" />
+        <activity android:name=".Searchscreen" />
+        <activity android:name=".Forgotpass" />
+        <activity android:name=".Nocstatus" />
+        <activity android:name=".Patientlistactivity" />
+        <activity android:name=".Taglayoutactivity" />
+        <activity android:name=".Login_form" />
+        <activity android:name=".Registrationpage" />
+        <activity android:name=".MessageActivity" />
+        <activity android:name=".Medicalorder" />
+        <activity android:name=".UploadImage" />
+        <activity android:name=".Fragment.CallActivity" />
+        <activity android:name=".Paientfirstpage" />
+        <activity android:name=".Doctorlistactivity" />
+        <activity android:name=".MedicaleStore" />
+        <activity android:name=".orderlistaddress" />
+        <activity android:name=".Videochatactivity" />
+        <activity android:name=".Navigation_drawer" />
+    </application>
+
+</manifest>

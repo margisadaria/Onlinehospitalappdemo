@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FF2022"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="21dp"
+        android:text="dname"
+        android:layout_centerVertical="true"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/dcontact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="21dp"
+        android:text="dcontact"
+        android:layout_centerVertical="true"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/demail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="21dp"
+        android:text="demail"
+        android:layout_centerVertical="true"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/dpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="21dp"
+        android:text="dpass"
+        android:layout_centerVertical="true"
+        android:textSize="20dp" />
+
+
+</LinearLayout>

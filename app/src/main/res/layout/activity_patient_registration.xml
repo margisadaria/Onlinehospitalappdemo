@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#16163e"
+    tools:context=".PatientRegistration">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/bar_layout"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+        <RelativeLayout
+            android:id="@+id/loginLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true">
+        <TextView
+            android:id="@+id/login_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_horizontal"
+            android:text="New Patient Registration"
+            android:textColor="#FFF"
+            android:fontFamily="serif"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/login_title"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="30dp"
+            android:background="#fff"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="30dp">
+
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="PName" />
+
+                <EditText
+                    android:id="@+id/pusername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Pemail" />
+
+                <EditText
+                    android:id="@+id/pemail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="PPassword" />
+
+                <EditText
+                    android:id="@+id/ppassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Age" />
+
+
+                <EditText
+                    android:id="@+id/page"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+                <TextView
+                    android:id="@+id/txtgender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Select Gender"
+                    android:textSize="20dp"/>
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:id="@+id/gender">
+
+                    <RadioButton
+                        android:id="@+id/pmale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MALE"
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/pfemale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FEMALE"
+                        android:textSize="15sp" />
+                </RadioGroup>
+                <TextView
+                    android:id="@+id/txtpatient"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Who is the patient"
+                    android:textSize="20dp"/>
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical"
+                    android:id="@+id/patientradio">
+
+                    <RadioButton
+                        android:id="@+id/pmyself"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Myself"
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/pmother"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mother"
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/pfather"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Father"
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/pdaughter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Daughter"
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/pson"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Son"
+                        android:textSize="15sp" />
+
+
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtprb"
+                    android:textSize="20dp"
+                    android:text="What's your problem Can u please  describe in few words???"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="265dp"
+                    tools:ignore="MissingConstraints" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="i m suffering from fever since last two month"
+                   android:id="@+id/pproblem"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="304dp"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/consultation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Start Consultation" />
+                <Button
+                    android:id="@+id/backtologinpage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Back to Login" />
+            </LinearLayout>
+        </RelativeLayout>
+        <ImageButton
+            android:id="@+id/user_profile_photo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/login_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/user_profile_image_background"
+            android:elevation="4dp"
+            android:src="@drawable/ic_boy" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

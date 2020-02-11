@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "741960497707",
+    "firebase_url": "https://otpdynamicanotherone.firebaseio.com",
+    "project_id": "otpdynamicanotherone",
+    "storage_bucket": "otpdynamicanotherone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741960497707:android:aac252fefbf51f7e",
+        "android_client_info": {
+          "package_name": "e.margi.otpdynamicanotherone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741960497707-d0f0oadsj9ejp0959qmhfd0udb64028q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "e.margi.otpdynamicanotherone",
+            "certificate_hash": "eabc12688742bd43d5f1b98c114c68d700c200e0"
+          }
+        },
+        {
+          "client_id": "741960497707-dfa7mb2aireolas545echpjdfjgs8c1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEFOXvrVvjmNS1sHba-0sIAxnnsiM3Vig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741960497707-dfa7mb2aireolas545echpjdfjgs8c1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
